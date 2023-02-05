@@ -1,0 +1,78 @@
+div{
+    position: relative;
+    padding: 10px;
+}
+
+#errorTable{
+    position: absolute;
+    left: 35%;
+}
+
+input{
+    position: relative;
+    left: 40%;
+    width: 20%;
+   
+    height: 1.5em;
+}
+
+button{
+    font-size: medium;
+    position: absolute;
+}
+
+#previousButton{
+    position: absolute;
+    left: 27%;
+}
+
+#nextButton{
+    position: absolute;
+    
+    right: 30%;
+}
+
+#logOutButton{
+    position: absolute;
+    right: 8%;
+}
+
+table{
+    width: 90%;
+    position: absolute;
+    top: 5em;
+    left: 5%;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.28);
+}
+
+#title{
+    background-color: rgb(187, 255, 255);
+    align-items: center;
+    position: relative;
+    }
+
+img{
+    width: 100px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+#side1{
+    width: 20%;
+    column-span: 1;   
+    background-color: antiquewhite;
+    padding: 10px;
+    
+}
+
+#side1 h3{
+    background-color: lightgray;
+}
+
+#side1 p{
+    text-align: right
+}
+

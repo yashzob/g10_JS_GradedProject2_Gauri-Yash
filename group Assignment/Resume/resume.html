@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Resumes</title>
+    <link rel="stylesheet" href="./resumecss.css">
+</head>
+<body style="overflow: auto;">
+   
+                
+<div id="mainDiv">
+    <button onclick="LogOut();" id="logOutButton">LOG OUT</button>
+    
+    <button id="previousButton" onclick="PreviousData();">Previous</button>
+    <input type="search" placeholder="Search for keyword to filter the rest" id="searchContent">
+    <button id="nextButton" onclick="NextData();">Next</button>
+    <table id="errorTable" class="errorMessage" style="width: 30%;">
+        <tr class="errorMessage" style="position:relative; height: 100px; ">
+            <td>
+                <img class="errorMessage" src="./sadIcon.png" alt="sadIcon">
+            </td>
+            <td>
+                <h3 class="errorMessage">No Such Results Found</h3>
+            </td>
+        </tr>
+    </table>
+    <table id="mainOutline">
+        <tr>
+            <th id="title" colspan="2">
+                <h1 id="name"></h1>
+                <h4 id="appliedFor">Applied for</h4>
+                <img src="./profile.png" alt="Profile image">
+            </th>
+        </tr>
+        <tr>
+            <td id="side1" style="align-content: flex-start;">
+                <h3>Personal Information</h3>
+                <p id="personalInformation"> </p>
+                <h3>Technical Skills</h3>
+                <p id="technicalSkills"></p>
+                <h3>Hobbies</h3>
+                <p id="hobbies"></p>
+            </td>
+            <td id="side2">
+                <h2>Work experience in previous company</h2>
+                <p id="companyName"></p>
+                <p id="position"></p>
+                <p id="startDate"></p>
+                <p id="endDate"></p>
+                <p id="summary"></p>
+                <h2>Projects</h2>
+                <p id="projects"></p>
+                <h2>Education</h2>
+                <p id="education"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <h2>Internship</h2>
+                <ul id="internship"></ul>
+                <h2>Achievements</h2>
+                <p id="achievements"></p>
+            </td>
+        </tr>
+    </table>
+</div>
+    <script src="./resumejs.js"></script>
+</body>
+</html>
